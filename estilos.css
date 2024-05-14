@@ -1,0 +1,189 @@
+html{
+    color:#fff
+}
+
+body{
+    background-color: #282828;
+    font-family: "poppins", sans-serif;
+    margin: 0 auto;
+    max-width: 1120px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+.menu{
+    display: block;
+   
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 2px;
+}
+
+.cabecalho .logo{
+    color: #fff;
+    background-color: green;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    border: 2px solid #000;
+    text-decoration: underline;
+    text-align: center;
+    line-height: 55px;
+    font-family: "Raleway", sans-serif;
+    transition: 0.2s;
+}
+
+.cabecalho a:hover .logo{
+    color: blue;
+    border: 2px solid #fff;
+}
+
+.cabecalho .menu li a{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    transition: 0.2s;
+}
+
+.cabecalho .menu li a:hover{
+    background-color: green;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.informacoes{
+ 
+    display: flex;
+    min-height: calc(100vh - 125px)
+    align-itens: center;
+    gap: 50px;
+    justify-content: space-between; 
+}
+
+.caixa-texto{
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    letter-spacing: 2px;
+    padding: 0 15px;
+    max-width: 50%;
+}
+
+.informacoes h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+
+.informacoes p{
+    font-family: "Raleway" sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container-foto{
+    background-color: #fff;
+    max-width: 1500px;
+    border-radius: 50%;
+}
+
+.projetos{
+    padding: 70px 0 70px;
+}
+
+.projetos .titulo {
+    text-align: center;
+    padding: 60px 0;
+    font-size: 45px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.projetos .container-projetos{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.projetos .projeto{
+    max-width: 260px;
+    max-height: 500px;
+    position: relative;
+    height: 100%;
+}
+
+.projetos .projeto h3{
+    background-color: green;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}
+
+.projetos .projeto .informacoes-projeto{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.projetos .container-projetos .projeto:hover .informacoes-projeto{
+    opacity: 0.7;
+    background-color: green;
+}
+
+.projetos .btn-conhecer-projetos{
+    background-color: none;
+    border: 1px solid green;
+    border-radius: 15px;
+    color: green;
+    width: 180px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.projetos .btn-conhecer-projetos:hover{
+    background-color: goldenrod;
+    transition: 0.3s;
+}
+
+.projetos .ver{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
